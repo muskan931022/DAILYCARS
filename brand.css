@@ -1,0 +1,26 @@
+#brands{
+    width: 95%;
+    margin-left: 3%;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 4fr 1fr 4fr 1fr;
+    height: 240px;
+    margin-bottom: 30px;
+    
+
+    
+}
+
+.brand-a{
+    
+    font-weight: bold;
+    text-align: center;
+}
+
+#allbrand{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 3px;
+    
+}

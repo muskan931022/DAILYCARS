@@ -1,0 +1,33 @@
+#citys{
+    width: 800px;
+    margin-left: 25px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 4fr 1fr 4fr 1fr;
+    height: 250px;
+    padding: 10px;
+}
+
+.city-a{
+    text-align: center;
+}
+
+
+    #cityname{
+        font-size: 30px;
+        font-weight: bold;
+        padding: 5px;
+        padding-top: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
