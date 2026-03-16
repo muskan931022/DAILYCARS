@@ -1,0 +1,46 @@
+#letest{
+    
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 5fr;
+    height: 12px;
+}
+
+#letestcar{
+    font-size: 25px;
+    font-weight: bold;
+    
+    
+    height: 15px;
+}
+
+
+
+.letest-a{
+    font-size: 15px;
+    padding: 20px;
+ 
+}
+
+.letest-a::after{
+    content: "";
+    display: block;
+    border: 1px solid green;
+    width: 0px;
+    transition: 1s;
+}
+
+.letest-a:hover::after{
+    width: 60%;
+}
+
+.letest-a:hover{
+    color: green;
+}
+ 
+
+
+    
+
+
+    
+    
